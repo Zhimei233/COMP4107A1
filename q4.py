@@ -27,7 +27,7 @@ def a_solution():
 
     # Initial guess and learning rate
     x0 = [0.0, 0.0]
-    alpha = 0.01
+    alpha = 0.1
 
     # Run gradient descent
     argmin, min_val = gradient_descent(f_ab, df_ab, x0, alpha)
